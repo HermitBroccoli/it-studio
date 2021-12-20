@@ -506,6 +506,7 @@ body {
     font-size: 16px;
     line-height: 25px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .video .blockVideo .video-id .video-id__play img {
@@ -573,7 +574,7 @@ body {
 
 .mailing .mailingBlock .mailingBlock-id .mailingBlock-id__btn {
     width: 190px;
-    height: 45px;
+    height: 100%;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -589,6 +590,7 @@ body {
     border: none;
     background: #4985FF;
     cursor: pointer;
+    padding: 15px 0 13px 0;
 }
 
 .mailing .mailing__podtext {
@@ -604,4 +606,39 @@ body {
     height: 413px;
     background: #f6f6f8;
     padding: 70px 0 30px 0;
+}
+
+.footer .conteiner-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .conteiner-link .item .item__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+.footer .conteiner-link .item .item-list .item-list-items {
+    list-style-type: none;
+}
+
+.footer .conteiner-link .item .item-list .item-list-items .item-list-items__item {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer .conteiner-link .item .item-list .item-list-items .item-list-items__item:last-child {
+    margin-bottom: 0;
+}
+
+.footer .conteiner-link .item .item-list .item-list-items .item-list-items__item img {
+    margin-right: 15px;
 }
