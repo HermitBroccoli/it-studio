@@ -611,6 +611,8 @@ body {
 .footer .conteiner-link {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .footer .conteiner-link .item .item__title {
@@ -641,4 +643,13 @@ body {
 
 .footer .conteiner-link .item .item-list .item-list-items .item-list-items__item img {
     margin-right: 15px;
+}
+
+.footer .footer__text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+    margin-top: 10px;
 }
